@@ -1,0 +1,64 @@
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    margin: auto;
+    width: 100vw;
+    height: 72vh;
+}
+
+input, select{
+    flex: 1;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    border: 1px solid gray;
+}
+
+main > form{ 
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    height: auto;
+    justify-content: space-around;
+    padding: 20px 10px 20px 10px;
+    max-width: 70vw;
+    margin: 0px auto 0px auto;
+   
+}   
+section {
+    margin: 7px 20px;
+    width: 300px;
+}
+section > label {
+    margin-left: 10px;
+}
+
+#ienviar:hover {
+    border: 1px solid rgb(54, 54, 54);
+    color: white;
+    background: gray;
+    box-sizing: border-box;
+}
+
+
+
+#ienviar {
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+}
+
+
+#enviar {
+    display: block;
+}
+
+
